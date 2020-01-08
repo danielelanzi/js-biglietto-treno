@@ -45,11 +45,11 @@ var scontoOver65 = 0.6;
 
 // costo biglietto
 var prezzoBiglietto = Math.ceil(costoKm * kmPercorrenza);
-// costo biglieto minorenni
+// costo biglietto minorenni
 if (etaPassegero < 18) {
   console.log('Il costo del tuo biglietto è: €',prezzoBiglietto * scontoMinorenni);
 }
-// costo biglieto over 65
+// costo biglietto over 65
 else if (etaPassegero >= 65) {
   console.log('Il costo del tuo biglietto è: €',prezzoBiglietto * scontoOver65);
 }
